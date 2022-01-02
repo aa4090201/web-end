@@ -1,0 +1,1121 @@
+html{
+    box-sizing: border-box;
+    
+    padding: 0;
+}
+*,*:after,*:before {
+    box-sizing:inherit;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
+body{
+    margin: 0 auto;
+    background-color: #08080A;
+}
+.artistbody{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #CAB0B0;;
+    color: white;
+}
+
+.top-nav{
+    display: flex;
+}
+.toplogo{
+    margin: 42px auto auto 23px;
+}
+.nav-sublist{
+
+    position: absolute;
+    display: none;
+}
+.nav-sublist-click{
+    height: 100vh;
+    width: 1280px;
+    background-color: black;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    margin: 0px auto;
+    z-index:9999;
+}
+.nav-list-item{
+    margin-top: 15px;
+    font-size: 48px;
+    list-style: none;
+    color: white;    
+
+}
+.nav-list-item-link{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    width: auto;
+    text-align:right;
+}
+.burger{   
+    position: fixed;
+    margin: 68px 0  0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    right: 53px;
+    top: 68px;
+
+}
+.burgerlogo{
+    display: flex;
+    height: 69px;
+    width: 69px;
+    flex-direction: column;
+    align-items: center;
+    border:3px solid white;
+}
+.bar1{
+    margin-top: 16px;
+    height: 3px;
+    width: 45px;
+    background-color: white;
+}
+.bar2{
+    margin-top: 11px;
+    height: 3px;
+    width: 45px;
+    background-color: white;
+}
+.bar3{
+    margin-top: 11px;
+    height: 3px;
+    width: 45px;
+    background-color: white;
+}
+.main{
+    
+    padding: 0;
+    margin: 0;
+    height: 1530px;
+    background-color: #08080A;
+    background-image: url("../images/main1 原檔.png");
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+.content{
+    position: relative;
+    padding: 0 ;
+    background-color: #08080A;
+}
+.maintitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    margin: 26px auto 0 auto;
+}
+.subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin: 11px auto 0 auto;
+    color: #989898;
+}
+.vwpintroduce{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin: 102px auto 0 auto;
+    color: #FFFFFF;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin:120px auto 0 auto ;
+    height: 521px;
+    background-image: url("../images/main_L.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.footer-list-item{
+    display: flex;
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 118px;
+    color: #FFFFFF;
+    flex-direction: row;
+}
+.footer-list-item-link{
+    margin-left: 2rem;}
+
+.footerlogo{
+    margin: 50px auto 0;
+}
+.footerp{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 35px;
+    color: #FFFFFF;
+}
+.subtitle1{
+    margin: 0 0 0 auto ;
+}
+.subtitle2{
+    margin: 0  auto 0 0  ;
+}
+.subtitle-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    width: 69px;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+ 
+.header {
+    width: 69px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .header-content {
+    width: 69px;
+    height: 50px;
+    background-color: #1d1f20;
+    overflow: hidden;
+  }
+.header-title{
+    max-width: 1280px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 74px;  
+    
+}
+.header-title-h1{
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    color: #000000;
+    margin-top: 46px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.artistheader{
+    display: flex;
+    flex-direction: column;
+ 
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.artistheader-burger{
+    margin-left: 65px;
+}
+.header-title-line{
+    background-color: black;
+    margin-top: 3px;
+    width: 615px;
+    height: 0px;
+    border: 5px solid #000000;
+}
+.header-selection-div{
+    margin-left: 65px;
+    margin-right: auto;
+    margin-top: 296px;
+    display: flex;
+    flex-direction: row;
+}
+.header-selection{
+    width: 193px;
+    height: 70px;
+    background: #010101;
+    box-sizing: border-box;
+}
+.header-selection-a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    
+    justify-content: center;
+    margin-top: 7px;
+}
+.header-selection-kaf{
+    margin-right: 36px;
+}
+.header-selection-rim{
+    margin-right: 36px;
+    margin-left: 0;
+}
+.header-selection-koko{
+    margin-right: 36px;
+    margin-left: 0;
+}
+.header-selection-harusaruhi{
+    margin-right: 36px;
+    margin-left: 0;
+}
+.header-selection-div-3{
+    display: flex;
+    flex-direction: row;
+}
+.header-selection-div-2{
+    display: flex;
+    flex-direction: row;
+}
+.header-selection-isekaijoucho{
+    width: 243px;
+    height: 70px;
+}
+.artistcontent{
+    margin: 0 auto;
+    margin-top: 146px;
+    margin-bottom: 0;
+    align-items: center;
+    max-width: 1280px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #000000;
+    max-width: 1142px;
+    }
+.artistname-1{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 162px;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    width: 400px;
+    height: 55px;
+    background: #C4C4C4;
+}
+.artistname-1-h2{
+    width: 350px;
+    height: 20px;   
+    margin-left: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+.artistname{
+    margin-top: 44px;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #000000;
+}
+.artistname-en{
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 20px;
+    /* identical to box height, or 50% */
+
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #989898;
+}
+.artistvision{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 162px;
+    margin-bottom: 0;
+    width: 1280px;
+    height: 600px;
+    background-image: url("../images/ARTIST kaf IMG.png");
+}
+.artiscontainer{
+    margin: 0 auto;
+}
+.icon{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 544px;
+    margin-top: 268px;
+}
+.yticon{
+    width: 70px;
+    height: 70px;
+}
+.yticon:hover{
+    color: white;
+    background-color: red;
+    border-radius:10%;
+}
+.twittericon{
+    width: 70px;
+    height: 70px;
+}
+.twittericon:hover{
+    color: white;
+    background-color: skyblue;
+    border-radius:10%;
+}
+.igicon{
+    width: 70px;
+    height: 70px;
+}
+.igicon:hover{
+    color: white;
+    background-color: palevioletred;
+    border-radius:10%;
+}
+.music-img-a-div{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 281px;
+    max-width: 1280px;
+
+}
+.artist-bot{
+    margin: 0 auto;
+}
+.music-img-a{
+    margin: 0;
+    width: 180px;
+    height: 180px;
+}
+.music-img{
+    margin: 0;
+    width: 180px;
+    height: 180px;
+    transform: scale(1);
+    transition: transform 1s ease 0s;
+    z-index: 0;
+}
+.music-img:hover {
+    transform: scale(1.2);
+}
+.musiccontainer{
+    width: 1064px;
+    margin: 223px auto 0;
+}
+.musiccontainer-div1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.musiccontainer-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 66px;
+}
+.musiccontainer-div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 181px;
+}
+.musiccontainer-div-img{
+    width: 500px;
+    height: 500px;
+}
+.musiccontainer-div1-h3{
+    margin-top: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    width: 500px;
+    color: #000000;
+}
+.musiccontainer-div1-p{
+    margin-top: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 116.69%;
+    color: #000000;
+    width: 500px;
+}
+.musiccontainer-div-right{
+    width: 500px;
+}
+.musiccontainer-div-light{
+    width: 500px;
+}
+.kaf-img{
+    position: absolute;
+    width: 160px;
+
+    left: 69px;
+    top: 2500px;
+    z-index: -1;
+}
+.kaf-img-div{
+    margin: 0;
+    padding: 0;
+}
+
+.header-selection{
+    transition:  0.5s ease-in;
+}
+
+
+.header-selection{
+    position: relative;
+    z-index:0;
+}
+.header-selection:before{
+    background-color: #FFFFFF;
+    content:"";
+    position:absolute;
+    top:0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    transition: 0.5s all ease;
+    box-sizing: border-box;
+    
+}
+.header-selection:hover:before{
+    border: 2px solid #000000;
+    transition: 0.5s all ease;
+    left:0%;
+    right:0%;
+    z-index:-1;
+}
+.header-selection-a:hover{
+    color: black;
+}
+.header-selection-active{
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    color: black;
+    border: 2px solid #000000;
+}
+.header-selection-a-active {
+    color: black;
+}
+
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 50%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+    writing-mode: vertical-rl;
+    color: white;
+
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: rgb(255, 254, 252);
+	position: absolute;
+	content: "";
+    writing-mode: vertical-rl;
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+
+#nav-icon4 {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin: 50px 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  #nav-icon4 span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+  
+  #nav-icon4 span:nth-child(2) {
+    top: 18px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+  
+  #nav-icon4 span:nth-child(3) {
+    top: 36px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+  
+  #nav-icon4.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -3px;
+    left: 8px;
+  }
+  
+  #nav-icon4.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  
+  #nav-icon4.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 39px;
+    left: 8px;
+  }
+
+@media (max-width:768px){
+    .main{
+        height: 1341px;
+        background-color: #08080A;
+        background-image: url("../images/main1 原檔 768.png");
+        background-position: center ;
+        background-repeat: no-repeat;
+    }
+    .burger{   
+        margin: 68px  0 auto 0;
+    }
+    .burger {
+        right: 95px;
+        top: 68px;
+    }
+    .footer{
+        margin:37px auto 0 auto ;
+        height: 611px;
+        background-image: url("../images/main_M.png");
+    }
+    .footer-list-item{
+        margin-top: 55px;
+        display: flex;
+        font-size: 20px;
+        flex-direction: column;
+    }
+    .footerp{
+        font-size: 20px;
+    }
+    .footer-list{
+        margin: 0 auto;
+    }
+    .subtitle-div{
+        flex-direction: column;
+    }
+    .subtitle1{
+        margin: 0  auto;
+    }
+    .subtitle2{
+        margin: 0  auto;
+    }
+    .artistheader{
+        max-width: 768px;
+    }
+    .artistheader-burger{
+        margin-left: 65px;
+    }
+    .header-selection-kaf{
+        margin-right: 31px;
+    }
+    .header-title{
+        width: 768px;
+    
+    }
+    .header-selection-rim{
+        margin-right: 31px;
+        margin-left: 0;
+    }
+    .header-selection-koko{
+        margin-left: 0;
+    }
+    .header-selection-harusaruhi{
+        margin-right: 31px;
+        margin-left: 0;
+    }
+    .header-title-h1{
+        font-size: 60px;
+        margin-top: 46px;
+    }
+    .header-title-line{
+        width: 615px;
+    }
+    .header-selection-div{
+        
+        flex-direction: column;
+    }
+    .header-selection-div-2{
+        margin-top: 45px;
+    }
+    .artistvision{
+        margin-top: 86px;
+        width: 768px;
+        height: 307px;
+        background-image: url("../images/ARTIST\ kaf\ IMG\ 768.png");
+    }
+    .artistname-1{
+        margin-top: 56px;
+    }
+    .artistcontent{
+        margin-top: 57px;
+        max-width: 708px;
+        }
+    .icon{
+        max-width: 544px;
+    }
+    .music-img-a-3{
+        display: none;
+    }
+    .musiccontainer-div1{
+        margin: 0 auto;
+        width: 500px;
+        justify-content: center;
+        flex-direction: column;  
+        margin-top: 0;  
+    }
+    .musiccontainer-div2{
+        margin: 0 auto;
+        width: 500px;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;  
+    }
+    .musiccontainer-div3{
+        margin: 0 auto;
+        width: 500px;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;  
+    }
+    .musiccontainer{
+        width: 500px;
+        margin: 66px auto 0;
+    }
+    .kaf-img{
+        position: absolute;
+        width: 207px;
+        height: 480px;
+        left: 69px;
+        top: 2400px;
+        z-index: -1;
+    }
+    #nav-icon4 {
+        margin: 20px 0;
+      }
+}
+@media (max-width:320px){
+    .toplogo{
+        margin: 24px auto auto 11px;
+        
+    }
+    .main{
+        height: 924px;
+        background-color: #08080A;
+        background-image: url("../images/main1 原檔 320.png");
+        background-position: center ;
+        background-repeat: no-repeat;
+    }
+  
+    .burgerlogo{
+        height: 47px;
+       width: 47px;
+   }
+ 
+   .toplogoimg{
+    width: 100px;
+    height: 96px;
+   }
+    .footer{
+        margin:37px auto 0 auto ;
+        height: 500px;
+        background-image: url("../images/main_M.png");
+        background-position: top ;
+    }
+    .footer-list-item{
+        margin-top: 55px;
+        display: flex;
+        font-size: 12px;
+        flex-direction: column;
+    }
+    .footerp{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .footer-list{
+        margin: 0 auto;
+    }
+    .subtitle-div{
+        flex-direction: column;
+        font-size: 18px;
+    }
+    .subtitle1{
+        margin: 0  auto;
+    }
+    .subtitle2{
+        margin: 0  auto;
+    }
+    .vwpintroduce{
+        font-size: 18px;
+    }
+    .bar1{
+        margin-top: 11px;
+        height: 2px;
+        width: 31px;
+        background-color: white;
+    }
+    .bar2{
+        margin-top: 7px;
+        height: 2px;
+        width: 31px;
+        background-color: white;
+    }
+    .bar3{
+        margin-top: 7px;
+        height: 2px;
+        width: 31px;
+        background-color: white;
+    }
+    .nav-list-item{
+        margin-top: 15px;
+        font-size: 32px;
+        list-style: none;
+        color: white;    
+    
+    }
+    .burger{   
+        margin-top: 38px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .burgerlogo{   
+        margin-bottom: 0;
+    }
+    .artistvision{
+        margin-top: 36px;
+        width: 320px;
+        height: 307px;
+        background-image: url("../images/ARTIST kaf IMG 320.png");
+    }
+    .header-selection-div{
+        margin-left: 11px;
+        margin-right: auto;
+        margin-top: 166px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-selection{
+        width: 193px;
+        height: 70px;
+        background: #010101;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+    .header-selection-a {
+        display: flex;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center; 
+        color: #FFFFFF;      
+        justify-content: center;
+        margin-top: 7px;
+    }
+    .header-selection-kaf{
+        width: 83px;
+        height: 53px;
+        margin-right: 23px;
+    }
+    .header-selection-rim{
+        width: 83px;
+        height: 53px;
+        margin-right: 23px;
+        margin-left: 0;
+    }
+    .header-selection-koko{
+        width: 83px;
+        height: 53px;
+        margin-left: 0;
+    }
+    .header-selection-harusaruhi{
+        width: 111px;
+        height: 53px;
+        margin-right: 8px;
+        margin-left: 0;
+    }
+    .header-selection-div-3{
+        display: flex;
+        flex-direction: row;
+    }
+    .header-selection-div-2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8px;
+    }
+    .header-selection-isekaijoucho{
+        width: 177px;
+        height: 53px;
+    }
+    .artistheader{
+        max-width: 320px;
+    }
+    .artistheader-burger{
+        margin-left: 11px;
+    }
+    .header-title{
+        width: 320px;
+        top: 62px;
+    }
+    .header-title-h1{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .header-title-line{
+        width: 232px;
+    }
+    .artistname-1{
+        padding: 0 auto;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        color: #FFFFFF;
+        width: 225px;
+        height: 38px;
+        margin-top: 22px;
+    }
+    .artistname-1-h2{
+        width: 225px;
+        height: 20px;   
+        text-align: center;
+        letter-spacing: 0.2em;
+        font-size: 20px;
+        margin: 0;
+
+    }
+    .artistname{
+        margin-top: 34px;
+        margin-bottom: 0;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.2em;
+    }
+    .artistname-en{
+        margin-top: 24px;
+        font-size: 20px;
+    }
+    .artistcontent{
+        margin-top: 39px;
+        margin-bottom: 0;
+        max-width: 300px;
+        }
+    .yticon{
+        width: 35px;
+        height: 35px;
+    }
+    .yticon-img{
+        width: 35px;
+        height: 35px;
+    }
+  
+    .twittericon{
+        width: 35px;
+        height: 35px;
+    }
+    .twittericon-img{
+        width: 35px;
+        height: 35px;
+    }
+    .igicon{
+        width: 35px;
+        height: 35px;
+    }    
+    .igicon-img{
+        width: 35px;
+        height: 35px;
+    }
+    .icon{
+        max-width: 175px;
+        margin-top: 100px;
+    }
+    .burger {
+        right: 36px;
+        top: 68px;
+    }
+    .music-img-a{
+        margin: 0;
+        width: 90px;
+        height: 90px;
+    }
+    .music-img{
+        margin: 0;
+        width: 90px;
+        height: 90px;
+    }
+    .musiccontainer{
+        width: 300px;
+        margin: 140px auto 0;
+    }
+    .musiccontainer-div1{
+        width: 300px;
+    }
+    .musiccontainer-div2{
+        width: 300px;
+    }
+    .musiccontainer-div3{
+        width: 300px;
+    }
+    .musiccontainer-div-img{
+        width: 300px;
+        height: 300px;
+    }
+    .musiccontainer-div1-p{
+        display: none;
+    }
+    .musiccontainer-div-left{
+        width: 300px;
+    }
+    .musiccontainer-div-right{
+        width: 300px;
+    }
+    .musiccontainer-div1-h3{
+        width: 300px;
+    }
+    .kaf-img{
+        display: none;
+    }
+    #nav-icon4 {
+        margin: 0 0;
+      }
+}
+
+
+
+
+ 
