@@ -35,7 +35,7 @@ body{
 .nav-sublist-click{
     height: 100vh;
     width: 1280px;
-    background-color: black;
+    background-color: #08080A;
     display: block;
     display: flex;
     flex-direction: column;
