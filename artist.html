@@ -29,21 +29,21 @@
         
             <div class="header-selection-div">
                 <div class="header-selection-div-3">
-                    <div class="header-selection header-selection-kaf header-selection-active" >
+                    <div class="header-selection header-selection-kaf header-selection-active" onclick="kaf()">
                         <a class="header-selection-a header-selection-kaf-a header-selection-a-active">花譜</a>
                     </div>
-                    <div class="header-selection header-selection-rim">
-                        <a class="header-selection-a header-selection-rim-a">理芽</a>
+                    <div class="header-selection header-selection-rim" onclick="rim()">
+                        <a class="header-selection-a header-selection-rim-a" >理芽</a>
                     </div>
-                    <div class="header-selection header-selection-koko">
+                    <div class="header-selection header-selection-koko" onclick="koko()">
                         <a class="header-selection-a header-selection-koko-a">幸祜</a>
                     </div>
                 </div>
                 <div class="header-selection-div-2">
-                    <div class="header-selection header-selection-harusaruhi" >
+                    <div class="header-selection header-selection-harusaruhi"  onclick="harusaruhi()">
                         <a class="header-selection-a header-selection-harusaruhi-a">春猿火</a>
                     </div>
-                    <div class="header-selection header-selection-isekaijoucho">
+                    <div class="header-selection header-selection-isekaijoucho" onclick="isekaijoucho()">
                         <a class="header-selection-a header-selection-isekaijoucho-a">ヰ世界情緒</a>
                     </div>
                 </div>
@@ -57,24 +57,23 @@
             </div>
             <ul class="nav-sublist" >
                 <li class="nav-list-item">
-                    <a href="artist.html" class="nav-list-item-link">ABOUT</a>
+                    <a href="index.html" class="nav-list-item-link">ABOUT</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="index.html" class="nav-list-item-link">NEWS</a>
+                    <a href="#" class="nav-list-item-link">NEWS</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="#" class="nav-list-item-link">VIRTUAL ARTISTS</a>
+                    <a href="artist.html" class="nav-list-item-link">VIRTUAL ARTISTS</a>
                 </li>
                 <li class="nav-list-item">
                     <a href="music.html" class="nav-list-item-link">DISCOGRAPHY</a>
                 </li>
                 <li class="nav-list-item">
                     <a href="#" class="nav-list-item-link">CONTACT</a>
-                </li>
             </ul>
         </div>
         <div class="artiscontainer">
-            <div class="artistvision">
+            <div class="artistvision" id="artistvision">
 
             </div>
             <div>
@@ -86,11 +85,11 @@
                 <div class="artistname" id="artistname">
                     花譜
                 </div>
-                <div class="artistname-en">
+                <div class="artistname-en" id="artistname-en">
                     KAF
                 </div>
             </div>
-            <P class="artistcontent">
+            <P class="artistcontent" id="artistcontent">
                                     日本の何処かに棲む、何処にでもいる、何処にもいない17才。<br>
                 様々な偶然により発見された類い稀な歌声を持つ次世代型バーチャルシンガー。<br>
                 <br>
@@ -134,17 +133,17 @@
             </P>
             <div class="artist-bot">
                 <div class="music-img-a-div">
-                    <a class="music-img-a"><img src="images/kafmusic1.png" class="music-img"></a>
-                    <a class="music-img-a"><img src="images/kafmusic2.png" class="music-img"></a>
-                    <a class="music-img-a"><img src="images/kafmusic3.png" class="music-img"></a>
-                    <a class="music-img-a music-img-a-3"><img src="images/kafmusic4.png" class="music-img"></a>
-                    <a class="music-img-a music-img-a-3"><img src="images/kafmusic5.png" class="music-img"></a>
-                    <a class="music-img-a music-img-a-3"><img src="images/kafmusic6.png" class="music-img"></a>
+                    <a href="music.html" class="music-img-a"><img src="images/kafmusic1.png" class="music-img"></a>
+                    <a href="music.html" class="music-img-a"><img src="images/kafmusic2.png" class="music-img"></a>
+                    <a href="music.html" class="music-img-a"><img src="images/kafmusic3.png" class="music-img"></a>
+                    <a href="music.html" class="music-img-a music-img-a-3"><img src="images/kafmusic4.png" class="music-img"></a>
+                    <a href="music.html" class="music-img-a music-img-a-3"><img src="images/kafmusic5.png" class="music-img"></a>
+                    <a href="music.html" class="music-img-a music-img-a-3"><img src="images/kafmusic6.png" class="music-img"></a>
                 </div>
                 <div class="icon">
-                    <a class="yticon"><img src="images/yt.png" class="yticon-img"></a>
-                    <a class="twittericon"><img src="images/twitter.png" class="twittericon-img"></a>
-                    <a class="igicon"><img src="images/ig.png" class="igicon-img"></a>
+                    <a  href="https://www.youtube.com/channel/UCQ1U65-CQdIoZ2_NA4Z4F7A" class="yticon"><img src="images/yt.png" class="yticon-img"></a>
+                    <a  href="https://twitter.com/virtual_kaf?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="twittericon"><img src="images/twitter.png" class="twittericon-img"></a>
+                    <a  href="https://www.instagram.com/virtual_kaf/" class="igicon"><img src="images/ig.png" class="igicon-img"></a>
                 </div>
             </div>
              
@@ -155,20 +154,20 @@
             <a class="footerlogo"><img src="images\image 7.png"></a>
             <div class="footer-list-item">
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">NEWS</a>
-                    <a href="#" class="footer-list-item-link">LIVE/EVENT</a>
+                    <a class="footer-list-item-link">NEWS</a>
+                    <a class="footer-list-item-link">LIVE/EVENT</a>
                 </div>
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">MEDIA</a>
-                    <a href="#" class="footer-list-item-link">ARTIST</a>
+                    <a class="footer-list-item-link">MEDIA</a>
+                    <a  class="footer-list-item-link">ARTIST</a>
                 </div>
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">STORE</a>
-                    <a href="#" class="footer-list-item-link">PROJECT</a>
+                    <a  class="footer-list-item-link">STORE</a>
+                    <a class="footer-list-item-link">PROJECT</a>
                 </div>
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">WORDS</a>
-                    <a href="#" class="footer-list-item-link">CONTACT</a>
+                    <a  class="footer-list-item-link">WORDS</a>
+                    <a  class="footer-list-item-link">CONTACT</a>
                 </div>
             </div>
             <p class="footerp">
