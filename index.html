@@ -14,42 +14,45 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </head>
         <body class="content">
             <div class="main">
                 <div class="top-nav">
                     <a class="toplogo"><img src="images\logo img.png" class="toplogoimg"></a>
-                    <div class="nav-list-item burger">
-                        <div id="nav-icon4">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <ul class="nav-sublist" >
-                            <li class="nav-list-item">
-                                <a href="index.html" class="nav-list-item-link">ABOUT</a>
-                            </li>
-                            <li class="nav-list-item">
-                                <a href="#" class="nav-list-item-link">NEWS</a>
-                            </li>
-                            <li class="nav-list-item">
-                                <a href="artist.html" class="nav-list-item-link">VIRTUAL ARTISTS</a>
-                            </li>
-                            <li class="nav-list-item">
-                                <a href="music.html" class="nav-list-item-link">DISCOGRAPHY</a>
-                            </li>
-                            <li class="nav-list-item">
-                                <a href="#" class="nav-list-item-link">CONTACT</a>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
-        <h1 class="maintitle">V.W.P</h1>
-        <div class="subtitle-div">
-        <h2 class="subtitle subtitle1">V.W.P</h2>
-        <h2 class="subtitle subtitle2">-Virtual Witch Phenomenon-</h2>
+            <div class="nav-list-item burger">
+                <div id="nav-icon4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-sublist" >
+                    <li class="nav-list-item">
+                        <a href="index.html" class="nav-list-item-link">ABOUT</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-item-link">NEWS</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="artist.html" class="nav-list-item-link">VIRTUAL ARTISTS</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="music.html" class="nav-list-item-link">DISCOGRAPHY</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-item-link">CONTACT</a>
+                </ul>
+            </div>    
+        <h1 class="maintitle" data-aos="fade-up">V.W.P</h1>
+        <div class="subtitle-div" data-aos="fade-up">
+        <h2 class="subtitle subtitle1" data-aos="fade-up">V.W.P</h2>
+        <h2 class="subtitle subtitle2" data-aos="fade-up">-Virtual Witch Phenomenon-</h2>
         </div>
-        <p class="vwpintroduce">
+        <p class="vwpintroduce" data-aos="fade-up">
             花譜、理芽、春猿火、ヰ世界情緒、幸祜。<br>
             五人の電脳の魔女達が結集し、遂に始まる新たな物語。<br>
             神椿から産まれた運命の五人の少女達が織り成す魔女達の現象。<br>
@@ -84,6 +87,10 @@
         <audio loop>
             <source src="audio/01. 輪廻.flac" >
         </audio>
-        
+        <script>
+            AOS.init({
+                duration: 1000,
+            });
+          </script>
     </body>
 </html>
