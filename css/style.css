@@ -905,6 +905,20 @@ body{
         font-size: 36px;
         display: none;
     }
+    .nav-sublist{
+        height: 100vh;
+        width: 400px;
+        background-color: #08080A;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+        margin: 0px auto;
+        z-index:9999;
+        font-size: 36px;
+        display: none;
+    }
 }
 @media (max-width:320px){
     .toplogo{
@@ -1220,8 +1234,21 @@ body{
         z-index:9999;
         font-size: 28px;
     }  
+    .nav-sublist{
+        height: 100vh;
+        width: 250px;
+        background-color: #08080A;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+        margin: 0px auto;
+        z-index:9999;
+        font-size: 36px;
+        display: none;
+    }
 }
-
 
 
  
