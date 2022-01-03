@@ -55,7 +55,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <ul class="nav-sublist" >
+            <ul class="nav-sublist" id="container">
                 <li class="nav-list-item">
                     <a href="index.html" class="nav-list-item-link">ABOUT</a>
                 </li>
@@ -70,6 +70,7 @@
                 </li>
                 <li class="nav-list-item">
                     <a href="#" class="nav-list-item-link">CONTACT</a>
+                </li>
             </ul>
         </div>
         <div class="artiscontainer">
@@ -133,12 +134,12 @@
             </P>
             <div class="artist-bot">
                 <div class="music-img-a-div">
-                    <a href="music.html" class="music-img-a"><img src="images/kafmusic1.png" class="music-img"></a>
+                    <a href="music.html#" class="music-img-a"><img src="images/kafmusic1.png" class="music-img"></a>
                     <a href="music.html" class="music-img-a"><img src="images/kafmusic2.png" class="music-img"></a>
                     <a href="music.html" class="music-img-a"><img src="images/kafmusic3.png" class="music-img"></a>
                     <a href="music.html" class="music-img-a music-img-a-3"><img src="images/kafmusic4.png" class="music-img"></a>
-                    <a href="music.html" class="music-img-a music-img-a-3"><img src="images/kafmusic5.png" class="music-img"></a>
-                    <a href="music.html" class="music-img-a music-img-a-3"><img src="images/kafmusic6.png" class="music-img"></a>
+                    <a href="music.html#music6" class="music-img-a music-img-a-3"><img src="images/kafmusic5.png" class="music-img"></a>
+                    <a href="music.html#music6" class="music-img-a music-img-a-3"><img src="images/kafmusic6.png" class="music-img"></a>
                 </div>
                 <div class="icon">
                     <a  href="https://www.youtube.com/channel/UCQ1U65-CQdIoZ2_NA4Z4F7A" class="yticon"><img src="images/yt.png" class="yticon-img"></a>
@@ -183,7 +184,15 @@
             AOS.init({
                 duration: 1800,
             });
-          </script>
+        </script>
+        <script>
+            let container = $('#container')
+            let slideButton = document.getElementById('nav-icon4')
+            function SlideToggle() {
+              container.slideToggle()
+            }
+            slideButton.addEventListener('click', SlideToggle)
+        </script>
     </body>
 
 </html>
