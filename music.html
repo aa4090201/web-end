@@ -9,7 +9,7 @@
         <script src="js\bootstrap.bundle.min.js"></script>-->
         <link rel="stylesheet" href="css/style.css">
         <script src="js/jquery.js"></script>
-        <script src="js\script.js"></script>   
+        <script src="js/script.js"></script>   
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
         <div class="artistheader">
             <div  class="artistheader-burger">
                 <div class="header-title">
-                    <h1  class="header-title-h1">DISCOGRAPNY</h1>
+                    <h1  class="header-title-h1">DISCOGRAPHY</h1>
                     <span class="header-title-line" ></span>
                     
                 </div>     
@@ -54,10 +54,10 @@
             </div>
             <ul class="nav-sublist" >
                 <li class="nav-list-item">
-                    <a href="artist.html" class="nav-list-item-link">ABOUT</a>
+                    <a href="index.html" class="nav-list-item-link">ABOUT</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="index.html" class="nav-list-item-link">NEWS</a>
+                    <a href="#" class="nav-list-item-link">NEWS</a>
                 </li>
                 <li class="nav-list-item">
                     <a href="artist.html" class="nav-list-item-link">VIRTUAL ARTISTS</a>
@@ -74,7 +74,10 @@
             <div class="musiccontainer">
                 <div class="musiccontainer-div1">
                     <div class="musiccontainer-div-left">
-                        <img src="images/kafmusic500-1.png" class="musiccontainer-div-img">
+                        <div>
+                            <audio id="music1" src="audio/01. 輪廻.flac"></audio>
+                            <img src="images/kafmusic500-1.png" class="musiccontainer-div-img" onclick="play1()">
+                        </div>
                         <h3 class="musiccontainer-div1-h3">
                             KAMITSUBAKI x Monark Collaboration   
                             Album「Awake」
@@ -94,7 +97,10 @@
                         </p>
                     </div class="musiccontainer-div-right">
                     <div>
-                        <img src="images/kafmusic500-2.png" class="musiccontainer-div-img">
+                        <div>
+                            <audio id="music2" src="audio/2.27 - 私論理.flac"></audio>
+                            <img src="images/kafmusic500-2.png" class="musiccontainer-div-img" onclick="play2()">
+                        </div>
                         <h3 class="musiccontainer-div1-h3">
                             愛と花-AI edition-
                         </h3>
@@ -110,7 +116,10 @@
                 </div >
                 <div class="musiccontainer-div2">
                     <div class="musiccontainer-div-left">
-                        <img src="images/kafmusic500-3.png" class="musiccontainer-div-img">
+                        <div>
+                            <audio id="music3" src="audio/1.08 - 痛みを.flac"></audio>
+                            <img src="images/kafmusic500-3.png" class="musiccontainer-div-img" onclick="play3()">
+                        </div>
                         <h3 class="musiccontainer-div1-h3">
                             魔法α<br>
                             花譜の2nd ALBUM。
@@ -122,7 +131,10 @@
                         </p>
                     </div>
                     <div class="musiccontainer-div-right">
-                        <img src="images/kafmusic500-4.png" class="musiccontainer-div-img">
+                        <div>
+                            <audio id="music4" src="audio/2.30 - 過去を喰らう.flac"></audio>
+                            <img src="images/kafmusic500-4.png" class="musiccontainer-div-img" onclick="play4()">
+                        </div>
                         <h3 class="musiccontainer-div1-h3">
                             魔法β<br>
                             花譜の2nd ALBUM。
@@ -136,7 +148,10 @@
                 </div>
                 <div class="musiccontainer-div3">
                     <div class="musiccontainer-div-left">
-                        <img src="images/kafmusic500-5.png" class="musiccontainer-div-img">
+                        <div>
+                            <audio id="music5" src="audio/01. 例えば.flac"></audio>
+                            <img src="images/kafmusic500-5.png" class="musiccontainer-div-img" onclick="play5()">
+                        </div>
                         <h3 class="musiccontainer-div1-h3">
                             例えば
                         </h3>
@@ -149,7 +164,10 @@
                         </p>
                     </div>
                     <div class="musiccontainer-div-right">
-                        <img src="images/kafmusic500-6.png" class="musiccontainer-div-img">
+                        <div>
+                            <audio id="music6" src="audio/14 - 魔法 feat.理芽.flac"></audio>
+                            <img src="images/kafmusic500-6.png" class="musiccontainer-div-img" onclick="play6()">
+                        </div>
                         <h3 class="musiccontainer-div1-h3">
                             I SCREAM LIVE
                         </h3>
@@ -162,9 +180,9 @@
             </div>
             <div class="artist-bot">
                 <div class="icon">
-                    <a class="yticon"><img src="images/yt.png" class="yticon-img"></a>
-                    <a class="twittericon"><img src="images/twitter.png" class="twittericon-img"></a>
-                    <a class="igicon"><img src="images/ig.png" class="igicon-img"></a>
+                    <a  href="https://www.youtube.com/channel/UCQ1U65-CQdIoZ2_NA4Z4F7A" class="yticon"><img src="images/yt.png" class="yticon-img"></a>
+                    <a  href="https://twitter.com/virtual_kaf?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="twittericon"><img src="images/twitter.png" class="twittericon-img"></a>
+                    <a  href="https://www.instagram.com/virtual_kaf/" class="igicon"><img src="images/ig.png" class="igicon-img"></a>
                 </div>
             </div>
         </div>
@@ -172,20 +190,20 @@
             <a class="footerlogo"><img src="images\image 7.png"></a>
             <div class="footer-list-item">
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">NEWS</a>
-                    <a href="#" class="footer-list-item-link">LIVE/EVENT</a>
+                    <a  class="footer-list-item-link">NEWS</a>
+                    <a  class="footer-list-item-link">LIVE/EVENT</a>
                 </div>
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">MEDIA</a>
-                    <a href="#" class="footer-list-item-link">ARTIST</a>
+                    <a  class="footer-list-item-link">MEDIA</a>
+                    <a class="footer-list-item-link">ARTIST</a>
                 </div>
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">STORE</a>
-                    <a href="#" class="footer-list-item-link">PROJECT</a>
+                    <a  class="footer-list-item-link">STORE</a>
+                    <a  class="footer-list-item-link">PROJECT</a>
                 </div>
                 <div class="footer-list">
-                    <a href="#" class="footer-list-item-link">WORDS</a>
-                    <a href="#" class="footer-list-item-link">CONTACT</a>
+                    <a  class="footer-list-item-link">WORDS</a>
+                    <a  class="footer-list-item-link">CONTACT</a>
                 </div>
             </div>
             <p class="footerp">
