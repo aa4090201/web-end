@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    
+    font-family: Roboto;
     padding: 0;
 }
 *,*:after,*:before {
@@ -34,7 +34,7 @@ body{
 }
 .nav-sublist-click{
     height: 100vh;
-    width: 1280px;
+    width: 400px;
     background-color: #08080A;
     display: block;
     display: flex;
@@ -393,8 +393,22 @@ body{
     margin-bottom: 0;
     width: 1280px;
     height: 600px;
-    background-image: url("../images/ARTIST kaf IMG.png");
 }
+.artistvision-kaf{
+   background-image: url("../images/ARTIST kaf IMG.png");
+}
+.artistvision-rim{
+    background-image: url("../images/ARTIST rim IMG.png");
+ }
+ .artistvision-koko{
+    background-image: url("../images/ARTIST koko IMG.png");
+ }
+ .artistvision-harusaruhi{
+    background-image: url("../images/ARTIST harusaruhi IMG.png");
+ }
+ .artistvision-isekaijoucho{
+    background-image: url("../images/ARTIST isekaijoucho IMG.png");
+ }
 .artiscontainer{
     margin: 0 auto;
 }
@@ -539,7 +553,7 @@ body{
     position: absolute;
     width: 160px;
     left: 69px;
-    top: 2500px;
+    top: 2400px;
     z-index: -1;
 }
 .kaf-img-div{
@@ -715,6 +729,11 @@ body{
       width: auto;
       margin: auto;
   }
+  .footer-div{
+    max-width: 1920px;
+      width: 100%;
+      background-color: black;
+  }
 @media (max-width:768px){
     .main{
         height: 1341px;
@@ -798,8 +817,22 @@ body{
         margin-top: 86px;
         width: 768px;
         height: 307px;
-        background-image: url("../images/ARTIST\ kaf\ IMG\ 768.png");
     }
+    .artistvision-kaf{
+        background-image: url("../images/ARTIST kaf IMG 768.png");
+     }
+     .artistvision-rim{
+         background-image: url("../images/ARTIST rim IMG 768.png");
+      }
+      .artistvision-koko{
+         background-image: url("../images/ARTIST koko IMG 768.png");
+      }
+      .artistvision-harusaruhi{
+         background-image: url("../images/ARTIST harusaruhi IMG 768.png");
+      }
+      .artistvision-isekaijoucho{
+         background-image: url("../images/ARTIST isekaijoucho IMG 768.png");
+      }
     .artistname-1{
         margin-top: 56px;
     }
@@ -849,6 +882,19 @@ body{
     #nav-icon4 {
         margin: 20px 0;
       }
+      .nav-sublist-click{
+        height: 100vh;
+        width: 400px;
+        background-color: #08080A;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+        margin: 0px auto;
+        z-index:9999;
+        font-size: 36px;
+    }
 }
 @media (max-width:320px){
     .toplogo{
@@ -941,8 +987,22 @@ body{
         margin-top: 36px;
         width: 320px;
         height: 307px;
-        background-image: url("../images/ARTIST kaf IMG 320.png");
     }
+    .artistvision-kaf{
+        background-image: url("../images/ARTIST kaf IMG 320.png");
+     }
+     .artistvision-rim{
+         background-image: url("../images/ARTIST rim IMG 320.png");
+      }
+      .artistvision-koko{
+         background-image: url("../images/ARTIST koko IMG 320.png");
+      }
+      .artistvision-harusaruhi{
+         background-image: url("../images/ARTIST harusaruhi IMG 320.png");
+      }
+      .artistvision-isekaijoucho{
+         background-image: url("../images/ARTIST isekaijoucho IMG 320.png");
+      }
     .header-selection-div{
         margin-left: 11px;
         margin-right: auto;
@@ -1137,8 +1197,20 @@ body{
     #nav-icon4 {
         margin: 0 0;
       }
+      .nav-sublist-click{
+        height: 100vh;
+        width: 250px;
+        background-color: #08080A;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+        margin: 0px auto;
+        z-index:9999;
+        font-size: 28px;
+    }  
 }
-
 
 
 
