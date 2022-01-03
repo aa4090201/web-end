@@ -149,13 +149,13 @@ function rim(){
   var vision = document.getElementById('artistvision');
   if($(window).width() > 769)
 {
-  vision.style.backgroundImage= "url('images/ARTIST rim IMG.png')";
+  vision.style.backgroundImage= "url('web-end/images/ARTIST rim IMG.png')";
 }else if($(window).width() > 321&&$(window).width() <= 768)
 {
-  vision.style.backgroundImage= "url('images/ARTIST rim IMG 768.png')";
+  vision.style.backgroundImage= "url('web-end/images/ARTIST rim IMG 768.png')";
 }else if($(window).width() <= 320)
 {
-  vision.style.backgroundImage= "url('images/ARTIST rim IMG 320.png')";
+  vision.style.backgroundImage= "url('web-end/images/ARTIST rim IMG 320.png')";
 }
   
   document.querySelector('.header-selection-rim').classList.add('header-selection-active');
@@ -189,13 +189,13 @@ function koko(){
   var vision = document.getElementById('artistvision');
   if($(window).width() > 769)
 {
-  vision.style.backgroundImage= "url('images/ARTIST koko IMG.png')";
+  vision.style.backgroundImage= "url('web-end/images/ARTIST koko IMG.png')";
 }else if($(window).width() > 321&&$(window).width() <= 768)
 {
-  vision.style.backgroundImage= "url('images/ARTIST koko IMG 768.png')";
+  vision.style.backgroundImage= "url('web-end/images/ARTIST koko IMG 768.png')";
 }else if($(window).width() <= 320)
 {
-  vision.style.backgroundImage= "url('images/ARTIST koko IMG 320.png')";
+  vision.style.backgroundImage= "url('web-end/images/ARTIST koko IMG 320.png')";
 }
   document.querySelector('.header-selection-koko').classList.add('header-selection-active');
   document.querySelector('.header-selection-koko-a').classList.add('header-selection-a-active');
@@ -230,13 +230,13 @@ function harusaruhi(){
   document.querySelector('.header-selection-harusaruhi-a').classList.add('header-selection-a-active');
   if($(window).width() > 769)
   {
-    vision.style.backgroundImage= "url('images/ARTIST harusaruhi IMG.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST harusaruhi IMG.png')";
   }else if($(window).width() > 321&&$(window).width() <= 768)
   {
-    vision.style.backgroundImage= "url('images/ARTIST harusaruhi IMG 768.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST harusaruhi IMG 768.png')";
   }else if($(window).width() <= 320)
   {
-    vision.style.backgroundImage= "url('images/ARTIST harusaruhi IMG 320.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST harusaruhi IMG 320.png')";
   }
   
  
@@ -271,13 +271,13 @@ function isekaijoucho(){
   document.querySelector('.header-selection-isekaijoucho-a').classList.add('header-selection-a-active');
   if($(window).width() > 769)
   {
-    vision.style.backgroundImage= "url('images/ARTIST isekaijoucho IMG.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST isekaijoucho IMG.png')";
   }else if($(window).width() > 321&&$(window).width() <= 768)
   {
-    vision.style.backgroundImage= "url('images/ARTIST isekaijoucho IMG 768.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST isekaijoucho IMG 768.png')";
   }else if($(window).width() <= 320)
   {
-    vision.style.backgroundImage= "url('images/ARTIST isekaijoucho IMG 320.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST isekaijoucho IMG 320.png')";
   }
 
   if(artiststate==1){
@@ -311,13 +311,13 @@ function kaf(){
   document.querySelector('.header-selection-kaf-a').classList.add('header-selection-a-active');
   if($(window).width() > 769)
   {
-    vision.style.backgroundImage= "url('images/ARTIST kaf IMG.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST kaf IMG.png')";
   }else if($(window).width() > 321&&$(window).width() <= 768)
   {
-    vision.style.backgroundImage= "url('../images/ARTIST kaf IMG 768.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST kaf IMG 768.png')";
   }else if($(window).width() <= 320)
   {
-    vision.style.backgroundImage= "url('images/ARTIST kaf IMG 320.png')";
+    vision.style.backgroundImage= "url('web-end/images/ARTIST kaf IMG 320.png')";
   }
   if(artiststate==5){
     document.querySelector('.header-selection-isekaijoucho').classList.remove('header-selection-active');
