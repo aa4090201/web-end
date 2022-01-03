@@ -52,7 +52,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <ul class="nav-sublist" >
+            <ul class="nav-sublist" id="container">
                 <li class="nav-list-item">
                     <a href="index.html" class="nav-list-item-link">ABOUT</a>
                 </li>
@@ -212,4 +212,12 @@
             <button type="button" id="BackTop" class="toTop-arrow" >
             </button>
         </footer>
+        <script>
+            let container = $('#container')
+            let slideButton = document.getElementById('nav-icon4')
+            function SlideToggle() {
+              container.slideToggle()
+            }
+            slideButton.addEventListener('click', SlideToggle)
+            </script>
     </body>
