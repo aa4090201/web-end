@@ -82,10 +82,20 @@ window.onload = function(){
 }
 
 function play1(){
+  var audio2 = document.getElementById('music2');
+  audio2.pause();
+  var audio3 = document.getElementById('music3');
+  audio3.pause();
+  var audio4 = document.getElementById('music4');
+  audio4.pause();
+  var audio5 = document.getElementById('music5');
+  audio5.pause();
+  var audio6 = document.getElementById('music6');
+  audio6.pause();
   var audio = document.getElementById('music1');
   if(audio.paused){
     audio.play();
-	  audio.volume=0.1;
+    audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
@@ -93,50 +103,100 @@ function play1(){
 }
 
 function play2(){
+  var audio1 = document.getElementById('music1');
+  audio1.pause();
+  var audio3 = document.getElementById('music3');
+  audio3.pause();
+  var audio4 = document.getElementById('music4');
+  audio4.pause();
+  var audio5 = document.getElementById('music5');
+  audio5.pause();
+  var audio6 = document.getElementById('music6');
+  audio6.pause();
   var audio = document.getElementById('music2');
   if(audio.paused){
     audio.play();
-	  audio.volume=0.1;
+    audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
   }
 }
 function play3(){
+  var audio1 = document.getElementById('music1');
+  audio1.pause();
+  var audio2 = document.getElementById('music2');
+  audio2.pause();
+  var audio4 = document.getElementById('music4');
+  audio4.pause();
+  var audio5 = document.getElementById('music5');
+  audio5.pause();
+  var audio6 = document.getElementById('music6');
+  audio6.pause();
   var audio = document.getElementById('music3');
   if(audio.paused){
     audio.play();
-	  audio.volume=0.1;
+    audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
   }
 }
 function play4(){
+  var audio1 = document.getElementById('music1');
+  audio1.pause();
+  var audio2 = document.getElementById('music2');
+  audio2.pause();
+  var audio3 = document.getElementById('music3');
+  audio3.pause();
+  var audio5 = document.getElementById('music5');
+  audio5.pause();
+  var audio6 = document.getElementById('music6');
+  audio6.pause();
   var audio = document.getElementById('music4');
   if(audio.paused){
     audio.play();
-	  audio.volume=0.1;
+    audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
   }
 }
 function play5(){
+  var audio1 = document.getElementById('music1');
+  audio1.pause();
+  var audio2 = document.getElementById('music2');
+  audio2.pause();
+  var audio3 = document.getElementById('music3');
+  audio3.pause();
+  var audio4 = document.getElementById('music4');
+  audio4.pause();
+  var audio6 = document.getElementById('music6');
+  audio6.pause();
   var audio = document.getElementById('music5');
   if(audio.paused){
     audio.play();
-	  audio.volume=0.1;
+    audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
   }
 }
 function play6(){
+  var audio1 = document.getElementById('music1');
+  audio1.pause();
+  var audio2 = document.getElementById('music2');
+  audio2.pause();
+  var audio3 = document.getElementById('music3');
+  audio3.pause();
+  var audio4 = document.getElementById('music4');
+  audio4.pause();
+  var audio5 = document.getElementById('music5');
+  audio5.pause();
   var audio = document.getElementById('music6');
   if(audio.paused){
     audio.play();
-	  audio.volume=0.1;
+    audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
