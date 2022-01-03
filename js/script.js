@@ -85,6 +85,7 @@ function play1(){
   var audio = document.getElementById('music1');
   if(audio.paused){
     audio.play();
+	  audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
@@ -95,6 +96,7 @@ function play2(){
   var audio = document.getElementById('music2');
   if(audio.paused){
     audio.play();
+	  audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
@@ -104,6 +106,7 @@ function play3(){
   var audio = document.getElementById('music3');
   if(audio.paused){
     audio.play();
+	  audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
@@ -113,6 +116,7 @@ function play4(){
   var audio = document.getElementById('music4');
   if(audio.paused){
     audio.play();
+	  audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
@@ -122,6 +126,7 @@ function play5(){
   var audio = document.getElementById('music5');
   if(audio.paused){
     audio.play();
+	  audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
@@ -131,6 +136,7 @@ function play6(){
   var audio = document.getElementById('music6');
   if(audio.paused){
     audio.play();
+	  audio.volume=0.1;
   }else{
     audio.pause();
     audio.currentTime = 0;
