@@ -149,7 +149,7 @@ function rim(){
   var vision = document.getElementById('artistvision');
   if($(window).width() > 769)
 {
-  vision.style.backgroundImage= "url('../images/ARTIST rim IMG.png')";
+  vision.style.backgroundImage= "url('images/ARTIST rim IMG.png')";
 }else if($(window).width() > 321&&$(window).width() <= 768)
 {
   vision.style.backgroundImage= "url('../images/ARTIST rim IMG 768.png')";
